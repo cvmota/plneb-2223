@@ -1,0 +1,10 @@
+Setup:
+1. echo "# plneb-2223" >> README.md
+2. git init
+3. git status
+4. git add README.md
+5. git status
+6. git commit -m "first commit"
+7. git branch -M main
+8. git remote add origin https://github.com/cvmota/plneb-2223.git
+9. git push -u origin main
