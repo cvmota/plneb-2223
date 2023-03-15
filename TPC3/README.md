@@ -17,6 +17,6 @@ Realização do trabalho de casa:
 3. Geração do ficheiro HTML em formato de uma tabela com utilização de CSS.
 
 
-Ficheiros HTML com as designações e respectiva descrição
-- [dicionario_medico_1.html](https://github.com/cvmota/plneb-2223/tree/main/TPC3/dicionario_medico_1.html)
-- [dicionario_medico_2.html](https://github.com/cvmota/plneb-2223/tree/main/TPC3/dicionario_medico_2.html)
+Ficheiros HTML com as designações e respectiva descrição gerados a partir da execução do ficheiro [dicionario_medico.ipynb](https://github.com/cvmota/plneb-2223/tree/main/TPC3/dicionario_medico.ipynb):
+- [dicionario_medico_1.html](https://htmlpreview.github.io/?https://github.com/cvmota/plneb-2223/blob/main/TPC3/dicionario_medico_1.html)
+- [dicionario_medico_2.html](https://htmlpreview.github.io/?https://github.com/cvmota/plneb-2223/blob/main/TPC3/dicionario_medico_2.html)
