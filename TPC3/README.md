@@ -19,7 +19,9 @@ Realização do trabalho de casa:
 
 Ficheiros HTML com as designações e respectiva descrição gerados a partir da execução do ficheiro [dicionario_medico.ipynb](https://github.com/cvmota/plneb-2223/tree/main/TPC3/dicionario_medico.ipynb):
 - [dicionario_medico_1.html](https://htmlpreview.github.io/?https://github.com/cvmota/plneb-2223/blob/main/TPC3/output/dicionario_medico_1.html)
+
   ![output_1](https://github.com/cvmota/plneb-2223/blob/main/TPC3/output/img_output_1.jpg)
 - [dicionario_medico_2.html](https://htmlpreview.github.io/?https://github.com/cvmota/plneb-2223/blob/main/TPC3/output/dicionario_medico_2.html)
+
   ![output_2](https://github.com/cvmota/plneb-2223/blob/main/TPC3/output/img_output_2.jpg)
   
