@@ -11,7 +11,3 @@
 - ![engenharia](https://github.com/cvmota/plneb-2223/blob/main/TPC6/output/engenharia.jpg)
 - ![egua](https://github.com/cvmota/plneb-2223/blob/main/TPC6/output/egua.jpg)
 - ![elefante](https://github.com/cvmota/plneb-2223/blob/main/TPC6/output/elefante.jpg)
-- <img src="https://github.com/cvmota/plneb-2223/blob/main/TPC6/output/home.jpg" width="50%">
-- <img src="https://github.com/cvmota/plneb-2223/blob/main/TPC6/output/engenharia.jpg" width="50%">
-- <img src="https://github.com/cvmota/plneb-2223/blob/main/TPC6/output/egua.jpg" width="50%">
-- <img src="https://github.com/cvmota/plneb-2223/blob/main/TPC6/output/elefante.jpg" width="50%">
