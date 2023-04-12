@@ -7,11 +7,14 @@
 - Elefante
 
 **Output:**
-- Home
+- **Home**
 ![home](https://github.com/cvmota/plneb-2223/blob/main/TPC6/output/home.jpg)
-- Engenharia
+
+- **Engenharia**
 ![engenharia](https://github.com/cvmota/plneb-2223/blob/main/TPC6/output/engenharia.jpg)
-- Égua
+
+- **Égua**
 ![egua](https://github.com/cvmota/plneb-2223/blob/main/TPC6/output/egua.jpg)
-- Elefante
+
+- **Elefante**
 ![elefante](https://github.com/cvmota/plneb-2223/blob/main/TPC6/output/elefante.jpg)
