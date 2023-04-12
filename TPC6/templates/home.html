@@ -1,0 +1,23 @@
+{% extends 'layout.html' %}
+
+{% block title %}Home{% endblock %}
+
+{% block content %}
+<div class="row">
+    <div class="col-md-8">
+        <h1>Bem-vindo ao meu site</h1>
+        <p>Aqui você vai encontrar um mundo de possibilidades, onde a Engenharia é tão versátil que pode projetar a resistência da espinha de uma égua ou a robustez das presas de um elefante.</p>
+        <div class="temas">
+            <h2>Temas do site</h2>
+            <ul>
+                <li><a href="{{ url_for('engenharia') }}">Engenharia</a></li>
+                <li><a href="{{ url_for('egua') }}">Égua</a></li>
+                <li><a href="{{ url_for('elefante') }}">Elefante</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="col-md-4">
+        <img src="{{ url_for('static', filename='engenharia.gif') }}" alt="Foto" class="img-fluid">
+    </div>
+</div>
+{% endblock %}

@@ -1,0 +1,22 @@
+{% extends 'layout.html' %}
+
+{% block title %}{{title}}{% endblock %}
+
+{% block content %}
+<div class="row">
+    <div class="col-md-8">
+        <img src="{{ url_for('static', filename='engenharia.jpg') }}" alt="Foto" class="img-fluid">
+    </div>
+    <div class="col-md-4">
+        <h1>{{title}}</h1>
+        <p class="text-justify">A engenharia é a aplicação da matemática, da física e da ciência da computação para a
+            resolução de problemas técnicos.</p>
+        <p class="text-justify">A engenharia é uma área muito importante e abrangente, que abrange desde a construção de
+            pontes e edifícios até o desenvolvimento de tecnologias avançadas como inteligência artificial e
+            robótica.</p>
+        <p class="text-justify">Seja construindo pontes ou projetando arranha-céus, a Engenharia é uma das mais
+            versáteis e desafiadoras áreas de atuação. Não é à toa que engenheiros podem aplicar seus conhecimentos em
+            diversas situações, desde a resistência da espinha de uma égua até a robustez das presas de um elefante.</p>
+    </div>
+</div>
+{% endblock %}
