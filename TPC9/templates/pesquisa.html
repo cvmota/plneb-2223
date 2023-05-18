@@ -1,0 +1,33 @@
+{% extends "layout.html" %}
+{% block body %}
+<div class="mt-3">
+    <h2>{{title}}</h2>
+    <form class="form" method="POST" action="/terms/search">
+        <div class="row">
+            <div class="col-sm-4">
+                <div class="input-group">
+                    <input class="form-control" placeholder="Please enter your search text" type="text" id="termo"
+                           name="termo" required>
+                    <button type="submit" class="btn bt-sm btn-primary"><i class="bi-search"></i></button>
+                </div>
+            </div>
+        </div>
+    </form>
+    <div class="mt-3">
+        {% if results %}
+        <h2>Results:</h2>
+        <ul>
+            {% for term in results %}
+            <li><b><a href="/terms/{{term}}">{{term}}</a>:</b> {{results[term]}}</li>
+            {% endfor %}
+        </ul>
+        {% endif %}
+
+        {% if no_results %}
+        {% for msg in no_results %}
+        {{msg}}:<b> {{no_results[msg]}}</b></li>
+        {% endfor %}
+        {% endif %}
+    </div>
+</div>
+{% endblock %}

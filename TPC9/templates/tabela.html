@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+{% extends 'layout.html' %}
+
+{% block body %}
+<div class="mt-4">
+    <table id="example" class="display" style="width:100%">
+        <thead>
+            <tr>
+                <th>Designation</th>
+                <th>Description</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for term in terms %}
+            <tr>
+                <td> <a href="/terms/{{term}}" class="list-group-item-action">{{term}}</a></td>
+                <td>{{terms[term]}}</td>
+            </tr>
+            {% endfor %}
+        </tbody>
+        <tfoot>
+            <tr>
+                <th>Designation</th>
+                <th>Description</th>
+            </tr>
+        </tfoot>
+    </table>
+</div>
+{% endblock %}
