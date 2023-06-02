@@ -12,3 +12,16 @@ Os requisitos incluem a definição de analisadores para extrair informações r
 - Limpeza dos dados, removendo elementos desnecessários; 
 - Extração de campos relevantes nas estruturas de dados previamente definida e armazenamento dessa informação num ficheiro em formato JSON. 
 O processamento do ficheiro dicionario_termos_medicos_pt_es_en.pdf é obrigatório. 
+
+
+
+## TP2_PLNEB_2223 - Natural Language Processing - Assignment 2
+
+### Contexto e Requisitos 
+
+Este trabalho prático tem como objetivo continuar a trabalhar no conjunto de dados JSON extraído dos ficheiros PDFs no trabalho prático anterior e enriquecer o conjunto de dados com mais informações de fontes externas, como sites online (Web scraping) e outros dicionários médicos. 
+Após a consolidação dos dados, pretende-se que seja criada uma ferramenta para manipular e representar a informação recolhida. A ferramenta deve ser capaz de explorar as relações nos dados e representar suas informações adequadamente. 
+
+**Tarefas**
+- Enriquecer o conjunto de dados: Usando fontes externas, como sites online, dicionários médicos, ou outras fontes relevantes para adicionar mais informações ao conjunto de dados. 
+- Desenvolvimento de ferramentas: Criação de uma ferramenta que possa manipular e representar o conjunto de dados enriquecido. A ferramenta deve ser capaz de explorar as relações nos dados e representar suas informações adequadamente. Esta ferramenta também deve permitir atualizar ou adicionar novas informações ao conjunto de dados.
